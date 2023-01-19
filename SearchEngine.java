@@ -20,6 +20,7 @@ class Handler implements URLHandler {
                     result.add(currWord);
                 }
             }
+            
             return Arrays.toString(result.toArray());
         } else {
             if (url.getPath().contains("/add")) {
